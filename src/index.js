@@ -42,10 +42,11 @@ function displaybreed(breeds){
 
 function selectDog(e){
   console.log(e.target.value)
-  // newbrees=[]
-  // allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){
-  //   newbrees.push(breed)
-  // }})
+  const key = e.target.value
+  newbrees=[]
+  allbreeds.forEach((breed)=>{if(breed[0]===key){
+    newbrees.push(breed)
+  }})
   // displaybreed(newbrees)
   // console.log(newbrees)
   // e.target.value=""
