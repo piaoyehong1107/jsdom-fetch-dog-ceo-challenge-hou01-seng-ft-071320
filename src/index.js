@@ -34,8 +34,7 @@ function displaybreed(breeds){
       h.addEventListener('click', changecolor);
   })
   console.log({allbreeds})
-  options=document.querySelector("select")
-  options.addEventListener('change',(e) => selectDog(e, allbreeds))
+  
 }
 
 function selectDog(e, allbreeds){
@@ -52,6 +51,7 @@ function changecolor(e){
     e.target.style.color = 'blue' 
 }
 
+document.querySelector("select").addEventListener('change',(e) => selectDog(e, allbreeds))
 
 
 document.addEventListener('DOMContentLoaded', function() {
