@@ -51,7 +51,8 @@ function changecolor(e){
     e.target.style.color = 'blue' 
 }
 
-document.querySelector("select").addEventListener('change',(e) => selectDog(e, allbreeds))
+options=document.querySelector("select")
+  options.addEventListener('change',(e) => selectDog(e, allbreeds))
 
 
 document.addEventListener('DOMContentLoaded', function() {
