@@ -51,11 +51,12 @@ function changecolor(e){
     e.target.style.color = 'blue' 
 }
 
-document.getElementById('breed-dropdown')
-        .addEventListener("click", (e) => selectDog(e, allbreeds))
 
 
 document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('breed-dropdown')
+        .addEventListener("click", (e) => selectDog(e, allbreeds))
+
  logimg();
  fatchbreed();
 })
