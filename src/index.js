@@ -23,7 +23,9 @@ function fatchbreed(){
       .then(res=>res.json())
       .then(breeds=> {
         console.log({api: breeds})
-        displaybreed(Object.keys(breeds.message))
+        const breeds = Object.keys(breeds.message)
+        console.log({breeds})
+        displaybreed(breeds)
       })
 }
 
