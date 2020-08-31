@@ -31,9 +31,9 @@ function displaybreed(breeds){
       h.innerText=key
       list.appendChild(h);
       h.addEventListener('click', changecolor);
-      options=document.querySelector("select")
-      options.addEventListener('change',(e) => selectDog(e, allbreeds))
   }
+  options=document.querySelector("select")
+  options.addEventListener('change',(e) => selectDog(e, allbreeds))
 }
 
 function selectDog(e, allbreeds){
