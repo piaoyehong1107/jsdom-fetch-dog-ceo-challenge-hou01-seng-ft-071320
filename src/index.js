@@ -59,7 +59,7 @@ function changecolor(e){
 
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('breed-dropdown')
-        .addEventListener("click", selectDog)
+        .addEventListener("click", (e) => selectDog(e))
 
  logimg();
  fatchbreed();
