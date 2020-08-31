@@ -44,11 +44,11 @@ function displaybreed(breeds){
 
 function selectDog(e){
   const key = e.target.value
-  newbrees=[]
+  newBreedsnames=[]
   allbreeds.forEach((breed)=>{if(breed[0]===key){
-    newbrees.push(breed)
+    newBreedsnames.push(breed)
   }})
-  displaybreed(newbrees)
+  displaybreed(newBreedsnames)
 }
 
 function changecolor(e){
