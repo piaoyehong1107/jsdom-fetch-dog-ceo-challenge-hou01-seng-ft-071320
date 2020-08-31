@@ -56,6 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('breed-dropdown')
         .addEventListener("change", (e) => selectDog(e))
 
- logimg();
- fatchbreed();
+  logimg();
+  fatchbreed();
 })
