@@ -35,7 +35,7 @@ function displaybreed(breeds){
         }
 }
 function selectDog(e){
-newbrees=allbreeds.filter((breed)=>{breed[0]===${e.target.value}})
+newbrees=allbreeds.filter((breed)=>{breed[0]===e.target.value})
 console.log(newbrees)
 }
 function changecolor(e){
