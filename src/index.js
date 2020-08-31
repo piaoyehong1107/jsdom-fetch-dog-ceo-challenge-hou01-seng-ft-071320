@@ -41,7 +41,7 @@ allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){
   newbrees.push(breed)
 }})
 console.log(newbrees)
-e.target.value=""
+// e.target.value=""
 }
 
 function changecolor(e){
