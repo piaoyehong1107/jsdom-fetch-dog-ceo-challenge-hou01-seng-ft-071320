@@ -27,7 +27,6 @@ function displaybreed(breeds){
   const list = document.getElementById('dog-breeds')
   // breeds = Object.keys(breeds.message);
   Object.keys(breeds).forEach(key => {
-      console.log(key)
       allbreeds.push(key)
       h=document.createElement("li")
       h.innerText=key
