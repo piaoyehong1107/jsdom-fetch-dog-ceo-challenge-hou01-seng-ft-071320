@@ -28,14 +28,12 @@ function displaybreed(breeds){
   console.log({breeds})
   const list = document.getElementById('dog-breeds')
   breeds.forEach(key => {
-      allbreeds.push(key)
+      // allbreeds.push(key)
       h=document.createElement("li")
       h.innerText=key
       list.appendChild(h);
       h.addEventListener('click', changecolor);
   })
-  console.log({allbreeds})
-  
 }
 
 function selectDog(e){
