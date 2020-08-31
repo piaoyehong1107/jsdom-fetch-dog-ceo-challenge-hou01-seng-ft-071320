@@ -34,8 +34,11 @@ function displaybreed(breeds){
             options.addEventListener('change',selectDog)
         }
 }
+newbrees=[]
 function selectDog(e){
-allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){}})
+allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){
+  
+}})
 console.log(newbrees)
 }
 function changecolor(e){
