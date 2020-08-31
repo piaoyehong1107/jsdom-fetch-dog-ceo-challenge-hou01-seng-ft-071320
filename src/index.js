@@ -51,7 +51,7 @@ function changecolor(e){
     e.target.style.color = 'blue' 
 }
 
-document.addEventListener('breed-dropdown',(e) => selectDog(e, allbreeds))
+document.getElementById('breed-dropdown',(e) => selectDog(e, allbreeds))
 
 
 document.addEventListener('DOMContentLoaded', function() {
