@@ -18,7 +18,7 @@ function displayimg(dogs){
 function fatchbreed(){
   fetch('https://dog.ceo/api/breeds/list/all')
       .then(res=>res.json())
-      .then(breeds=>displaybreed(Object.key(breeds.message)))
+      .then(breeds=>displaybreed(Object.keys(breeds.message)))
 }
 
 function displaybreed(breeds){
