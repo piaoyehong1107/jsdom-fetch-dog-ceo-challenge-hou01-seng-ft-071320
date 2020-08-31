@@ -35,7 +35,7 @@ function displaybreed(breeds){
         }
 }
 function selectDog(e){
- console.log(allbreeds.filter((breed)=>{ console.log(breed[0])
+ allbreeds.filter((breed)=>{console.log(breed[0])})
 }
 function changecolor(e){
     e.target.style.color = 'blue' 
