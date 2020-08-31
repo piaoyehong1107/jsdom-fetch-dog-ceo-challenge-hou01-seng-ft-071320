@@ -37,7 +37,7 @@ function displaybreed(breeds){
   
 }
 
-function selectDog(e, allbreeds){
+function selectDog(e){
   newbrees=[]
   allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){
     newbrees.push(breed)
