@@ -48,7 +48,7 @@ function selectDog(e){
     newbrees.push(breed)
   }})
   // displaybreed(newbrees)
-  // console.log(newbrees)
+  console.log(newbrees)
   // e.target.value=""
 }
 
