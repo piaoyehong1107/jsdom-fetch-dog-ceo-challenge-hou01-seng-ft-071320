@@ -27,6 +27,7 @@ function fatchbreed(){
 function displaybreed(breeds){
   console.log({breeds})
   const list = document.getElementById('dog-breeds')
+  list.innerText=''
   breeds.forEach(key => {
       allbreeds.push(key)
       h=document.createElement("li")
