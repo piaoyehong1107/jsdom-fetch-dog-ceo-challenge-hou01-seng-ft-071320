@@ -51,7 +51,7 @@ function changecolor(e){
     e.target.style.color = 'blue' 
 }
 
-document.getElementByTagName('select')
+document.getElementsByTagName('select')
         .addEventListener("click", (e) => selectDog(e, allbreeds))
 
 
