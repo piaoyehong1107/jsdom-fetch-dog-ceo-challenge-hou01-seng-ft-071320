@@ -32,11 +32,11 @@ function displaybreed(breeds){
       list.appendChild(h);
       h.addEventListener('click', changecolor);
       options=document.querySelector("select")
-      options.addEventListener('change',selectDog)
+      options.addEventListener('change',(e) => selectDog(e, allbreeds))
   }
 }
 
-function selectDog(e){
+function selectDog(e, allbreeds){
   newbrees=[]
   allbreeds.forEach((breed)=>{if(breed[0]===e.target.value){
     newbrees.push(breed)
