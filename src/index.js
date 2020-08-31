@@ -33,7 +33,7 @@ function displaybreed(breeds){
       h.innerText=key
       list.appendChild(h);
       h.addEventListener('click', changecolor);
-  }
+  })
   console.log({allbreeds})
   options=document.querySelector("select")
   options.addEventListener('change',(e) => selectDog(e, allbreeds))
