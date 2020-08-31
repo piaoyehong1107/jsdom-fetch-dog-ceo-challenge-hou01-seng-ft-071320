@@ -1,5 +1,5 @@
 console.log('%c HI', 'color: firebrick')
-let allbreeds=[];
+// let allbreeds=[];
 function logimg(){
   fetch("https://dog.ceo/api/breeds/image/random/4")
 .then(res=>res.json())
