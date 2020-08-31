@@ -22,17 +22,18 @@ function fatchbreed(){
 }
 
 function displaybreed(breeds){
-        const list = document.getElementById('dog-breeds')
-      //breeds = Object.keys(breeds.message);
-        for (const key in breeds.message){
-            allbreeds.push(key)
-            h=document.createElement("li")
-            h.innerText=key
-            list.appendChild(h);
-            h.addEventListener('click', changecolor);
-            options=document.querySelector("select")
-            options.addEventListener('change',selectDog)
-        }
+      
+  const list = document.getElementById('dog-breeds')
+//breeds = Object.keys(breeds.message);
+  for (const key in breeds.message){
+      allbreeds.push(key)
+      h=document.createElement("li")
+      h.innerText=key
+      list.appendChild(h);
+      h.addEventListener('click', changecolor);
+      options=document.querySelector("select")
+      options.addEventListener('change',selectDog)
+  }
 }
 
 function selectDog(e){
