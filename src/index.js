@@ -22,7 +22,7 @@ function fatchbreed(){
   fetch('https://dog.ceo/api/breeds/list/all')
       .then(res=>res.json())
       .then(breeds=> {
-        console.log({breeds})
+        console.log({api: breeds})
         displaybreed(Object.keys(breeds.message))
       })
 }
