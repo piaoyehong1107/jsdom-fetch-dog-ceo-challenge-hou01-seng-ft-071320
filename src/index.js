@@ -35,8 +35,6 @@ function displaybreed(breeds){
       list.appendChild(h);
       h.addEventListener('click', changecolor);
   })
-  console.log({allbreeds})
-  
 }
 
 function selectDog(e){
