@@ -52,7 +52,7 @@ function changecolor(e){
 }
 
 document.getElementsByTagName('select')
-        .addEventListener("click", (e) => selectDog(e, allbreeds))
+        .addEventListener("click", (e) => selectDog(e))
 
 
 document.addEventListener('DOMContentLoaded', function() {
